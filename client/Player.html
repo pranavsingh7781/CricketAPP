@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Player</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Add Player</h1>
+        <form id="addPlayerForm" enctype="multipart/form-data">
+            <input id="name" type="text" name="Name" placeholder="Eg. MS Dhoni" required />
+            <input id="matches" type="number" name="Matches" placeholder="Matches Played" required />
+            <input id="runs" type="number" name="Runs" placeholder="Runs Scored" required />
+            <input id="wickets" type="number" name="Wickets" placeholder="Wickets Taken" required />
+            <input id="image" type="file" name="Imageurl" accept="image/*" required />
+            <button type="submit" id="submit">Add Player</button>
+        </form>
+        
+        <!-- Button to view the full player list on a new page -->
+        <button id="seePlayerListBtn" style="margin-top: 15px;">See Full Player List</button>
+        
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

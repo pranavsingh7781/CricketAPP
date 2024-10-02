@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('/client/image/DALL·E\ 2024-10-01\ 18.05.45\ -\ A\ dynamic\ background\ image\ for\ a\ cricket\ project\,\ featuring\ a\ vibrant\ cricket\ field\ with\ lush\ green\ grass\ under\ a\ bright\ sky.\ The\ cricket\ pitch\ is\ at\ .jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border: 1px dotted black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+form input {
+    width: 99%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: transparent;
+    color: black;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: green;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+/* Media Queries for responsiveness */
+
+/* For mobile devices */
+@media (max-width: 600px) {
+    .container {
+        max-width: 95%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    form input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+    form input {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid black;
+        border-radius: 3px;
+        background-color: transparent;
+        color: black;
+    }
+}
+
+/* For tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        max-width: 80%;
+        margin: 50px auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    form input {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 22px;
+    }
+    form input {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid black;
+        border-radius: 3px;
+        background-color: transparent;
+        color: black;
+    }
+}
+
+/* For laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .container {
+        max-width: 600px;
+        margin: 70px auto;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    form input {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 24px;
+    }
+    form input {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid black;
+        border-radius: 3px;
+        background-color: transparent;
+        color: black;
+    }
+}
